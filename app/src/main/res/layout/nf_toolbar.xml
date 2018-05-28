@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/nf_brown_d800"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/nf_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:title=" "/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/af_icon"/>
+
+    <ImageView
+        android:id="@+id/toolbar_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/af_img"/>
+
+  </FrameLayout>
+
+
+</android.support.design.widget.AppBarLayout>

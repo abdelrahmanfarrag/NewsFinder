@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#3F51B5</color>
+  <color name="colorPrimaryDark">#303F9F</color>
+  <color name="colorAccent">#FF4081</color>
+
+  <color name="nf_brown_d800">#5E3635</color>
+  <color name="nf_orange_d500">#FF7920</color>
+  <color name="nf_white">#ffffff</color>
+  <color name="nf_off_white">#00ffff</color>
+  <color name="nf_dark_white">#B78188</color>
+</resources>
